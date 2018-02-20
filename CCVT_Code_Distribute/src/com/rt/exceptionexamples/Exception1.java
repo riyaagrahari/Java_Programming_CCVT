@@ -9,7 +9,7 @@ int a = 42 / d;
   }
   catch(ArithmeticException e){
     System.out.println("Error:Division By zero not possible");
-    e.printStackTrace(); //for displaying error message(debugging option for developer)
+    //e.printStackTrace(); //for displaying error message(debugging option for developer)
   }
 }
 }
